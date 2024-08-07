@@ -19,7 +19,7 @@ body{
 body{
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: black;
     padding: 0;
     margin: 0;
 }
@@ -34,18 +34,20 @@ header{
 }
 
 .logo{
-    background-color: transparent;
-    width: 40%;
+    width: 18%;
+    height: 100%;
 }
 .logo img{
-    width:40%;
+    width:100%;
+    margin-top: 20%;
 }
 
 .title{
     color: white;
-    font-size: 150%;
+    font-size: 120%;
     font-family: 'old english text mt' ,  sans-serif;
     position: relative;
+    margin: 1%;
 }
 
 .menu{
@@ -73,7 +75,7 @@ header{
 .line{
     width: 70%;
     height: 0.4rem;
-    background-color: rgb(221, 221, 221);
+    background-color: #FF4500;
     box-shadow:  0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -136,7 +138,7 @@ header{
     position: fixed;
     top: 0;
     right: -40rem;
-    background-color: black;
+    background-color: white;
     transition: right 0.5s;
 }
 
@@ -166,9 +168,10 @@ header{
 
 .sidebar ul li a{
     text-decoration: none;
-    color:  white;
+    color:  black;
     font-size: 2rem;
     font-family: 'Oldenburg' , sans-serif;
+    
 }
 
 .sidebar ul li a:hover{
