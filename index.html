@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DoryInkStudioBali-V2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
 
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="logo">
             <img src="asset/header/logo.png" alt="logo">
         </div>
         <div class="title">Dory Ink <br> Studio Bali</div>
-
         <div class="menu">
             <div class="hamburger-menu animated">
                 <div class="line line-1"></div>
@@ -23,13 +24,27 @@
             <section class="sidebar">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="coba.html">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </section>
         </div>
     </header>
 
+    <section class="content-1">
+        <div class="image-container">
+            <img class="content-1-img active" id="image" src="asset/home/slider/1.png" alt="image 1">
+        </div>
+
+        <div class="menu-content-1">
+            <h1>Creative Ink.</h1><br>
+            <h2>Skilled Hands.</h2>
+            <P>The tattoo studio you’ve been waiting for
+                Open every day</P>
+            <button class="book-btn">BOOK NOW</button>
+        </div>
+        <button id="toggleButton"><strong>>>></strong></button>
+    </section>
 
 
     <script src="index.js"></script> 
