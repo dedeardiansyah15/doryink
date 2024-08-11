@@ -20,7 +20,6 @@ window.addEventListener('scroll',function(){
 
 
 const image = document.getElementById('image');
-const button = document.getElementById('toggleButton');
 
 const images  = [
     'asset/home/slider/1.png',
@@ -48,6 +47,6 @@ function changeImage(){
     }, 500);
 }
 
-button.addEventListener('click', changeImage);
+setInterval(changeImage,7000)
 
 image.classList.add('active');
